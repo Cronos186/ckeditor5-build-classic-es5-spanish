@@ -26,7 +26,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @ckeditor/ckeditor5-build-classic-es5-spanish
+npm install --save ckeditor5-build-classic-es5-spanish
 ```
 
 And use it in your website:
