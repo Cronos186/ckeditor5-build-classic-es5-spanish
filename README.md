@@ -26,7 +26,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save ckeditor5-build-classic-es5-spanish
+npm install ckeditor5-build-classic-es5-spanish
 ```
 
 And use it in your website:
@@ -35,7 +35,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@ckeditor/ckeditor5-build-classic-es5-spanish/build/ckeditor.js"></script>
+<script src="./node_modules/ckeditor5-build-classic-es5-spanish/build/ckeditor.js"></script>
 <script>
 	ClassicEditor
 		.create( document.querySelector( '#editor' ) )
@@ -51,10 +51,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic-es5-spanish';
+import ClassicEditor from 'ckeditor5-build-classic-es5-spanish';
 
 // Or using the CommonJS version:
-// const ClassicEditor = require( '@ckeditor/ckeditor5-build-classic-es5-spanish' );
+// const ClassicEditor = require( 'ckeditor5-build-classic-es5-spanish' );
 
 ClassicEditor
 	.create( document.querySelector( '#editor' ) )
